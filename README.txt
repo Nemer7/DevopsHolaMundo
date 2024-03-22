@@ -1,10 +1,10 @@
 # ParcialDevops
 
 "Construye la imagen Docker: "
-docker build -t mi_imagen .
+docker build -t ParcialDevops .
 
 "Ejecuta el contenedor Docker: "
-docker run -d -p 8080:80 mi_imagen
+docker run -d -p 8080:80 ParcialDevops
 
 "Se recomienda abrir en incognito"
 
